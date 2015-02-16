@@ -1,0 +1,4 @@
+1.)Get the total number of entries z in the table.
+2.)Store the database entries in two arrays a1 and a2 where a1 contains the entries of the rows where id is from 1 to z/2 and remaining entries in a2.
+3.)Create two thread t1 and t2.t1 will send the emails contained in array a1 and simaltaneously t2 sends the emails contained in array a2.
+4.)Create n number of threads in two different functions with each function having z/2 threads each.These threads will parallely send mail to z/2 clients.

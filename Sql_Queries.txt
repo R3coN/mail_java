@@ -1,0 +1,25 @@
+
+Database Creation : 
+create database email;
+use email;
+
+
+Creating Table :
+create table emailqueue(
+id int not null auto_increment,
+from_email_address varchar(50),
+password varchar(50),
+to_email_address varchar(50),
+subject varchar(100),
+body varchar(200),
+primary key(id));
+
+insertion :
+insert into emailqueue values(1, 'guruabhi5293@gmail.com', 'guddu@123', 'abhi521993@gmail.com' , 'Application for web developer','My code is working');
+insert into emailqueue values( '','guruabhi5293@gmail.com', 'guddu@123', 'abhi521993@gmail.com' , 'Application for Software Engineer','I want to meet');
+insert into emailqueue values( '','guruabhi5293@gmail.com', 'guddu@123', 'abhi521993@gmail.com' , 'Application','I am in hurry');
+insert into emailqueue values( '','guruabhi5293@gmail.com', 'guddu@123', 'abhi521993@gmail.com' , 'send this mail','I dont know');
+insert into emailqueue values( '','guruabhi5293@gmail.com', 'guddu@123', 'abhi521993@gmail.com' , 'send email','now send this');
+insert into emailqueue values(1, 'guruabhi5293@gmail.com', 'guddu@123', 'abhi521993@gmail.com' , 'web developer','My code is not working');
+insert into emailqueue values(1, 'guruabhi5293@gmail.com', 'guddu@123', 'abhi521993@gmail.com' , 'ser','no comment');
+insert into emailqueue values( '','guruabhi5293@gmail.com', 'guddu@123', 'abhi521993@gmail.com' , 'NIT DURGAPUR','Computer Science');
